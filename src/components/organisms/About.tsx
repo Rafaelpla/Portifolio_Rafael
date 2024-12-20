@@ -21,7 +21,7 @@ const About: React.FC<AboutProps> = ({ language }) => {
                 <h1 className="md:text-2xl text-lg">{AboutText}</h1>
             </div>
             <div className="flex lg:pr-0 lg:pt-32 lg:pl-0 p-12 md:p-0 content-center text-white space-y-8 justify-center">
-                <img className="md:w-72 sm:w-64 w-52 rounded-xl md:mx-auto" width={200} src="src/assets/foto.jpeg" alt="Rafael Sutil" />
+                <img className="md:w-72 sm:w-64 w-52 rounded-xl md:mx-auto" src="src/assets/foto.jpeg" alt="Rafael Sutil" />
             </div>
         </div>
     )
